@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html> <!-- envolve tudo e possui separações feito um corpo-->
+<html lang="pt-BR">
+    <head> <!--cabeça da minha página-->
+    <meta charset="UTF-8"> <!--é utilizado pro html entender caracteres do português-->
+    <title>Doce amor</title> <!--nome que aparece na aba-->
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    </head> <!--lembrar da indentação-->
+        <body> <!--corpo da minha estrutura. aqui vai toda informação que o usuário ver e interage.-->
+            <header class="menu">
+                <nav> <!--é o meu menu-->
+                    <!--só podemos ter um id no código. A class pode repetir.-->
+                        <ul> <!--é uma lista não ordenada. precisa ser acompanhado da tag li-->
+                        <!--tag lista li-->
+                         <!--tag a torna  clicável, podemos direcionar a outra página dando a referencia-->
+                         <li class="lista-menu">
+                            <a href="#doces">Sobremesas</a>
+                        </li>
+                        <li class="lista-menu">
+                            <a href="#bebidas">Bebidas</a>
+                        </li>
+                        <li class="lista-menu">
+                            <a href="#historia">Quem somos</a>
+                        </li>
+                        <li class="lista-menu">
+                            <a href="#contato">Redes sociais</a>
+                        </li>
+                        <!-- assim ela está carregando pra outra página. está errado.-->
+                        </ul>
+                </nav>
+            </header>
+
+                <main> <!--para envolver minhas seções, define a parte principal do site-->
+                    <div class="inicial-titulo">
+                        <h1 class="titulo-loja">
+                        <i class="fa-solid fa-cake-candles"></i> Doce amor confeitaria <i class="fa-solid fa-ice-cream"></i>
+                        </h1>
+                        <h2 class="endereco-loja">
+                            Avenida Mariana Amália, Nº 05. Centro - Vitória de Santo Antão
+                        </h2>
+                    </div>
+
+                    <section id="doces"> <!--seções da mais semântica, separando em partes-->
+                        <!--div envolve, um conteiner com as seções ou informações... não passa informação.-->
+                        <!--temos de 1 a 6 níveis de texto. O h1 é único e o maior. O h6 é o menor.-->
+                            <h2 class="titulo-secao">Sobremesas</h2>
+                            <div class="secao-sobremesa">
+                                <h3 class="cardapio">Taças</h3>
+                                <div class="container">
+                                <ul> <!--lista não ordenada. Ainda preciso entender a diferença quando ela é mostrada no site-->                                   
+                                    <li class="lista-sabores">
+                                        <img src="./img/taca-jasmine-recheada.jpg" alt="taça de brigadeiro">
+                                        <legend>Brigadeiro</legend>
+                                    </li>
+
+                                    <li class="lista-sabores">
+                                        <img src="./img/10896817.jpg" alt="taça de chocolate">
+                                        <legend>Chocolate</legend>
+                                    </li>
+                                       
+                                    <li class="lista-sabores">
+                                        <img src="./img/taca-kit-kat.jpg" alt="taça de kitkat">
+                                        <legend>KikKat</legend>
+                                    </li>
+                                   
+                                    <li class="lista-sabores">
+                                        <img src="./img/taca-ninho-com-nutella.jpg" alt="taça de ninho com nutella">
+                                        <legend> Ninho com Nutella</legend>
+                                    </li>
+                                </ul>
+                                </div>
+                            </div>
+
+                            <h3 class="cardapio">Tortas</h3>
+                                <ul>
+                                    <li class="lista-sabores">
+                                        <img src="./img/1d22d96039f98608bc9338debb1b4579.webp" alt="torta de limão">
+                                        <legend>Torta de Limão</legend>
+                                    </li>
+
+                                    <li class="lista-sabores">
+                                        <img src="./img/torta-oreo.jpg" alt="torta de oreo">
+                                        <legend>Torta de Oreo</legend>
+                                    </li>
+
+                                    <li class="lista-sabores">
+                                        <img src="./img/bgmtvis7cspil01jvb90ap03o.jpg" alt="torta holandesa">
+                                        <legend>Torta Holandesa</legend>
+                                    </li>
+
+                                    <li class="lista-sabores">
+                                        <img src="./img/torta-morango-chocolate-branco.jpg" alt="torta de morango">
+                                        <legend>Torta de Morango</legend>
+                                    </li>
+                                </ul>
+
+                            <h3 class="cardapio">Bolos</h3>
+                                <ul>
+                                        <li class="lista-sabores">
+                                            <img src="./img/bolo-de-noiva-1368552613977_v2_1x1.jpg">
+                                            <legend>Bolo de Noiva</legend>
+                                        </li>
+
+                                        <li class="lista-sabores">
+                                            <img src="./img/bolo-souza-leao-1372115175195_1920x1280.jpg">
+                                            <legend>Bolo Souza Leão</legend>
+                                        </li>
+
+                                        <li class="lista-sabores">
+                                            <img src="./img/bolo_de_chocolate_cremoso_5992_orig.jpg">
+                                            <legend>Bolo de Chocolate</legend>
+                                        </li>
+
+                                        <li class="lista-sabores">
+                                            <img src="./img/d5c3b12263781084d3e84b11c2d33027.webp">
+                                            <legend>Bolo de Rolo</legend>
+                                        </li>  
+
+                                </ul>
+                    </section>
+
+                        <section id="bebidas"> <!--agregar uma class é melhor para identificar quando fomos para o css-->
+                            <h2 class="titulo-secao">Bebidas</h2>
+
+                            <h3 class="cardapio">Refrigerantes </h3>
+                                <div class="container-imagens">   
+                                    <img src="./img/coca.webp" class="imagem" alt="Coca-Cola">
+                                    <!--<legend class="secao-bebida">Coca-cola</legend>-->  
+                             <!--tag br quebra linha, abre e fecha só-->
+                                    <img src="./img/guarana.jpeg" class="imagem" alt="Antartica">
+                                    <!--<legend class="secao-bebida">Antarctica</legend>-->
+                                    <img src="./img/k.png" class="imagem" alt="Kuat">
+                                    <!--<legend class="secao-bebida">Kuat</legend>-->
+                                </div>
+
+                                <h3 class="cardapio">Sucos</h3>
+                                    <div class="container-imagens">
+                                        <img src="./img/laranja.jpeg" class="imagem" alt="">
+                                        <!--<legend class="secao-bebida"> Laranja</legend>-->
+                                        <img src="./img/maracuja.jpeg" class="imagem">
+                                        <!--<legend class="secao-bebida"> Maracujá<br></legend>-->
+                                        <img src="./img/morango.jpeg" class="imagem">
+                                        <!--<legend class="secao-bebida"> Morango<br></legend>-->
+                                    </div>
+
+                                <h3 class="cardapio">Outros</h3>
+                                    <div class="container-imagens">
+                                        <img src="./img/acfe.jpeg" class="imagem">
+                                        <!--<legend class="secao-bebida">Café</legend>-->
+                                        <img src="./img/agua.jpeg" class="imagem">
+                                        <!--<legend class="secao-bebida">Água</legend>-->
+                                        <img src="./img/agua com gas.jpg" class="imagem">
+                                        <!--<legend class="secao-bebida">Água com gás</legend>-->
+                                    </div>
+                        </section>
+                                
+                </main>
+                    <footer id="historia"> <!--não lembro o que vai nele-->
+                        <!--é o rodapé do site. parte final.-->
+                            <h2 class="titulo-rodape">Quem somos</h2>
+                            <p class="descricao-historia">
+                            Empresa familiar, nasceu na cozinha da Vó Maria e hoje se tornou referência na área de doces em nossa região.
+                            O amor e o prazer em cozinhar sempre acompanhou a matriarca da família Silva, sempre preparando deliciosos doces para as festividades
+                            e comemorações em família, principalmente para os netos, que ansiavam pelos quitutes da avó. E foi juntando esse amor pela culinário
+                            e a necessidade de trabalhar para conseguir uma renda que surgiu o que hoje é a nossa empresa. 
+                            </p>
+
+                        <div id="contato">
+                            <h2 class="titulo-rodape">Redes sociais </h2>
+                            <ul>
+                                <li class="lista-contato">
+                                    <i class="fa-brands fa-instagram icone"></i> 
+                                    Instagram
+                                </li>
+                                <li class="lista-contato">
+                                    <i class="fa-brands fa-whatsapp icone"></i> 
+                                    WhatsApp
+                                </li>
+                                <li class="lista-contato">
+                                    <i class="fa-solid fa-phone icone"> </i> 
+                                    (81) 91234-5678
+                                </li> 
+                            </ul>     
+                        </div>
+                    </footer>
+        </body>
+</html>
