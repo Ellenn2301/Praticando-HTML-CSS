@@ -27,6 +27,8 @@
 img{
     width: 140px;
     height: 140px;
+    border-radius: 30%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .inicial-titulo{
     background-color: #f2dfd3;
