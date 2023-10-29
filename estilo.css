@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.amor{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    margin-top: 40px;
+}
+.container{
+    width: 400px;
+    height: 600px;
+    background-color:#DAF4BE;
+    border-radius: 20px;
+
+}
+.nossa-foto{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+img{
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.titulo{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #4A68ED;
+    font-weight: 600;
+    font-size: 30px;
+}
+.descricao{
+    margin-right:25px ;
+    margin-left:25px;
+    text-align:center;
+    font-weight: 400;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.secao-amor{
+   font-weight: 600;
+   font-size: 20px;
+   color:#7A34E0;
+   background-color:#b0b0b1;
+   width: 150px;
+   height: 40px;
+   border-radius: 20px;
+   border: 0;
+}
+.clube{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.container2{
+    width: 900px;
+    height: 1000px;
+    background-color: #FCDF92;
+    border-radius: 20px;
+}
+.foto-cats{
+    display: flex;
+    align-items: flex-start;
+    justify-content:center;
+}
+.gatas-img{
+    width: 250px;
+    height: 250px;
+    box-shadow: rgba(207, 203, 203, 0.35) 0px 5px 15px;
+}
+.titulo2{
+    text-align: center;
+    color: #FF5E36;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 50px;
+}
+#formulario{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.container3{
+    width: 550px;
+    height: 550px;
+    background-color: beige;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+form > input{
+    width: 400px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+form > label{
+    color: rgb(92, 122, 38);
+    font-size: 18px;
+    font-weight: 400;
+}
+form > h1{
+    color: #FF5E36;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+.botao{
+    display: flex;
+    justify-content: center;
+}
+button{
+    color: rgb(92, 122, 38);
+    background-color:#FCDF92;
+    height: 35px;
+    width: 100px;
+    border: 0;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+}
